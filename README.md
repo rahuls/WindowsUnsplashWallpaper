@@ -3,6 +3,10 @@
 A python script which sets the wallpaper for Windows desktop using Unsplash API. 
 
 ## Usage
+Install the requirements using the below command.
+```python
+pip install -r requirements.txt
+```
 The program accepts arguments and then it fetches an image that is relevant to the given arguments
 ```bash
 python app.py black cars
@@ -17,3 +21,4 @@ The above command sets a random wallpaper from unsplash. If no argument is passe
 ## Note
 * The wallpaper is saved as 'wall.png' and is located at where app.py is executed.
 * This program can be scheduled in Windows using Task Scheduler. For scheduling follow [this](https://www.esri.com/arcgis-blog/products/product/analytics/scheduling-a-python-script-or-model-to-run-at-a-prescribed-time/).
+* This only works on Windows.
