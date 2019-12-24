@@ -21,4 +21,4 @@ The above command sets a random wallpaper from unsplash. If no argument is passe
 ## Note
 * The wallpaper is saved as 'wall.png' and is located at where app.py is executed.
 * This program can be scheduled in Windows using Task Scheduler. For scheduling follow [this](https://www.esri.com/arcgis-blog/products/product/analytics/scheduling-a-python-script-or-model-to-run-at-a-prescribed-time/).
-* This only works on Windows.
+* The script only works on Windows.
